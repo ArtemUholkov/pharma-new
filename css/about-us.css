@@ -1,0 +1,364 @@
+.as_text_text {
+  color: var(--main-color);
+  font-family: 'Gotham-normal';
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  max-width: 532px;
+}
+.as_ph_form {
+  padding-top: 0;
+}
+.as_mob_img {
+  position: relative;
+}
+@media (max-width: 1005px) {
+  .as_main_left_block {
+    position: absolute;
+    left: 0;
+    top: 20px;
+    z-index: -1;
+    width: 100.526px;
+    height: 178.948px;
+  }
+  .as_ph_form {
+    padding-top: 60px;
+  }
+  .as_h1 {
+    font-size: 32px;
+  }
+  .main_picture_image_mobile {
+    width: 294px;
+    height: auto;
+    margin-bottom: 32px;
+    margin-top: 30px;
+  }
+  .as_text_text {
+    font-size: 16px;
+    max-width: 300px;
+  }
+}
+/* POTENTIAL */
+.as_potential {
+  position: relative;
+  width: 100%;
+  padding-top: 0px;
+  padding-bottom: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.as_potential-right-block-ab {
+  position: absolute;
+  top: -185px;
+  right: 0;
+  z-index: -1;
+}
+
+.as_potential_wrapper {
+  max-width: 1138px;
+  width: 100%;
+  margin: 0 auto;
+}
+.as_potential_titles_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.as_potential_title {
+  color: var(--main-color);
+  text-align: center;
+  font-family: 'Gotham-normal';
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  max-width: 822px;
+}
+
+.as_potential_text {
+  color: var(--main-color);
+  text-align: center;
+  font-family: 'Gotham-normal';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  max-width: 817px;
+}
+.as_solutions_wrapper {
+  background: url('../img/about-us/as-bg.svg') no-repeat;
+  gap: 0;
+  padding-top: 0;
+}
+.solutions_picture {
+  margin-right: 0;
+}
+.solutions_reverse {
+  gap: 70px;
+  justify-content: flex-start;
+  width: 100%;
+  margin-right: 40px;
+  margin-top: 0px;
+}
+.solutions_right_picture {
+  margin-right: 100px;
+}
+.solutions_wrap_2_togather {
+}
+.as_item_text {
+  margin-left: -10px;
+}
+.p1_as_image {
+  margin-left: 60px;
+  margin-top: 30px;
+}
+.solutions_item_text {
+  margin-top: 0;
+}
+.mob_img_s_as {
+  display: none;
+}
+.as_solutions {
+  height: auto;
+  padding-bottom: 0;
+  padding-top: 0px;
+}
+.solutions_wrapper {
+  height: auto;
+}
+@media (max-width: 1150px) {
+  .as_solutions_wrapper {
+    background: transparent;
+  }
+
+  .p1_as_image {
+    margin: 0;
+    display: none;
+  }
+  .pc_img_as {
+    display: none;
+  }
+  .mob_img_s_as {
+    display: block;
+    width: 260px;
+    height: 152.838px;
+  }
+  .solutions_item_text {
+    align-items: center;
+    border: 1px solid #f3f3f3;
+  }
+  .as_potential_title {
+    font-size: 32px;
+    text-align: center;
+    max-width: 300px;
+  }
+  .as_potential_text {
+    font-size: 16px;
+    max-width: 316px;
+    text-align: center;
+  }
+  .solutions_reverse {
+    margin-right: 0;
+  }
+  .as_solutions {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .as_potential {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .as_potential-right-block-ab {
+    position: absolute;
+    top: -120px;
+    right: -20px;
+    z-index: -1;
+    width: 125.243px;
+    height: 154.18px;
+  }
+  .as_fb_ab_bot {
+    height: 270px;
+  }
+}
+.as_picture_wrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 508px;
+  height: 600px;
+}
+.as_dig_image {
+  width: 468px;
+  height: 507px;
+  max-width: 1000px;
+  max-height: 1000px;
+  position: relative;
+  top: -70px;
+}
+.as_sec_dig_title {
+  max-width: 135px;
+}
+.as_dig_title {
+  max-width: 490px;
+}
+.as_dig_text {
+  font-size: 18px;
+}
+.as_ph_main_button {
+  max-width: 180px;
+}
+.as_main_button {
+  border: 2px solid var(--main-color);
+  font-weight: 600;
+}
+.as_digital_image_mobile {
+  width: 256px;
+  height: 273px;
+  margin: 0 auto;
+}
+.as_left_img {
+  width: 484.857px;
+  height: 524.174px;
+  top: 0;
+  left: -40px;
+  transform: rotate(-10deg);
+}
+.as_digital {
+  padding-bottom: 0;
+  padding-top: 0;
+}
+.as_digital_image_wrapper {
+  margin-bottom: 50px;
+}
+@media (max-width: 1005px) {
+  .as_dig_image {
+    display: block;
+    width: 256px;
+    height: 273px;
+    margin: 0 auto;
+    position: initial;
+  }
+  .as_dig_wrapper {
+    gap: 0;
+  }
+  .as_dig_title {
+    font-size: 32px;
+    max-width: 281px;
+  }
+  .as_dig_text {
+    font-size: 16px;
+    max-width: 300px;
+    text-align: center;
+  }
+  .as_ph_main_button {
+    margin: 0 auto;
+  }
+  .as_left_img {
+    width: 265.874px;
+    height: 287.434px;
+    top: 80px;
+    right: 0;
+    left: 0;
+    margin: auto;
+  }
+  .as_digital {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .start {
+    padding: 0 20px;
+  }
+}
+
+.apo_wrapper {
+  position: absolute;
+  top: 230px;
+  right: 0;
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  gap: 14px;
+  border-radius: 10px;
+  background: rgba(85, 149, 253, 0.85);
+  max-width: 282px;
+}
+.apo_icon {
+}
+.apo_texts_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.apo_up_texts_wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+.apo_text {
+  color: #fff;
+  font-family: 'Gotham-normal';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 107%;
+}
+.apo_chaning-item {
+  width: 30px;
+  height: 30px;
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+.apo_bottom_text {
+  width: 100%;
+  text-align: right;
+}
+.apo_numbers_wrapper {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0px;
+  gap: 5px;
+  transition: all 0.2s;
+}
+.apo_number {
+  color: #fff;
+  font-family: 'Gotham-normal';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 107%;
+  width: 30px;
+  height: 26px;
+  text-align: center;
+}
+.mob-img_wrapper {
+  display: none;
+}
+@media (max-width: 1005px) {
+  .mob-img_wrapper {
+    display: block;
+    position: relative;
+  }
+  .apo_numbers_wrapper_mob {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0px;
+    gap: 5px;
+    transition: all 0.2s;
+  }
+  .step-2_title {
+    font-size: 25px;
+  }
+}

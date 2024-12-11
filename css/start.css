@@ -1,0 +1,109 @@
+.start {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding-top: 62px;
+  padding-bottom: 120px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.start_wrapper {
+  position: relative;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding-top: 62px;
+  padding-bottom: 62px;
+  padding-left: 62px;
+  border-radius: 30px;
+  border: 1px solid #f3f3f3;
+  background: var(
+    --Glass-2,
+    radial-gradient(
+      37.42% 68.86% at 10.03% 4.88%,
+      rgba(255, 255, 255, 0.4) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    rgba(255, 251, 251, 0.3)
+  );
+
+  /* glass */
+  box-shadow: 0px 0.712px 4.275px 0px rgba(255, 255, 255, 0.35) inset,
+    -0.712px 0.712px 0.712px 0px rgba(255, 255, 255, 0.35) inset,
+    0px 12.825px 16.388px 0px rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(28.5px);
+  -webkit-backdrop-filter: blur(28.5px);
+}
+.start_content_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.start_conent_texts_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.start_content_texts_title {
+  color: var(--main-color);
+  font-family: 'Gotham-normal';
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  margin-bottom: 8px;
+}
+.start_content_texts_text {
+  color: var(--main-color);
+  font-family: 'Gotham-normal';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  margin-bottom: 22px;
+  max-width: 457px;
+}
+.start_button {
+  width: 220px;
+}
+
+.start_doctor_image {
+  position: absolute;
+  bottom: 0;
+  right: 110px;
+}
+@media (max-width: 1100px) {
+  .start_doctor_image {
+    right: 20px;
+  }
+}
+@media (max-width: 986px) {
+  .start_doctor_image {
+    display: none;
+  }
+  .start_conent_texts_wrapper {
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+  }
+  .start_wrapper {
+    padding-left: 0;
+  }
+  .start_content_texts_text {
+    text-align: center;
+  }
+}
+@media (max-width: 620px) {
+  .start_wrapper {
+    padding: 32px 20px;
+  }
+  .start_content_texts_title {
+    font-size: 32px;
+    max-width: 220px;
+    text-align: center;
+  }
+  .start_content_texts_text {
+    font-size: 16px;
+  }
+  .start {
+    padding-bottom: 100px;
+  }
+}

@@ -1,0 +1,149 @@
+.digital {
+  position: relative;
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-right: 70px;
+}
+.digital_wrapper {
+  max-width: 1211px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  gap: 48px;
+}
+.digital_image_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.digital_image {
+  max-width: 523.846px;
+  max-height: 324.091px;
+  width: 100%;
+  height: auto;
+}
+.digital_texts_wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.section_title {
+  color: var(--main-color);
+  font-family: 'Gotham-bold';
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  max-width: 640px;
+  margin-bottom: 22px;
+}
+.digital_subtitle {
+  max-width: 236px;
+  margin-bottom: 25px;
+}
+.digital_text {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  max-width: 640px;
+}
+.digital_image_mobile {
+  display: none;
+}
+
+.left-bg_img {
+  width: 450px;
+  height: 408.507px;
+  position: absolute;
+  top: -50px;
+  left: -10px;
+  z-index: -1;
+}
+.right-bg_img {
+  width: 364.938px;
+  height: 444.938px;
+  position: absolute;
+  right: 90px;
+  top: -100px;
+  z-index: -1;
+}
+@media (max-width: 1800px) {
+  .right-bg_img {
+    right: 0;
+  }
+}
+@media (max-width: 1700px) {
+  .right-bg_img {
+    right: -100px;
+  }
+}
+@media (max-width: 1400px) {
+  .right-bg_img {
+    width: 259.119px;
+    height: 294px;
+    right: -20px;
+  }
+}
+@media (max-width: 1350px) {
+  .digital {
+    padding-left: 20px;
+  }
+}
+@media (max-width: 1005px) {
+  .digital_wrapper {
+    flex-direction: column;
+  }
+  .digital_image {
+    display: none;
+  }
+  .digital_image_mobile {
+    display: block;
+    width: 300px;
+    height: 185.625px;
+    margin: 0 auto;
+    margin-bottom: 32px;
+  }
+  .section_title {
+    text-align: center;
+    max-width: 296px;
+    font-size: 32px;
+    margin: 0 auto;
+    margin-bottom: 32px;
+  }
+  .digital_subtitle {
+    margin: 0 auto;
+    margin-bottom: 18px;
+  }
+  .digital_text {
+    margin: 0 auto;
+    margin-bottom: 22px;
+  }
+  .digital_title {
+    margin: 0 auto;
+    max-width: 640px;
+    width: 100%;
+    margin-bottom: 8px;
+  }
+  .digital_button {
+    margin: 0 auto;
+    width: 320px;
+  }
+  .digital {
+    padding-right: 20px;
+    padding-top: 40px;
+  }
+  .right-bg_img {
+    width: 159.119px;
+    height: 194px;
+    right: -30px;
+    top: -70px;
+  }
+  .left-bg_img {
+    width: 202.575px;
+    height: 183.896px;
+    top: 320px;
+    left: -30px;
+  }
+}

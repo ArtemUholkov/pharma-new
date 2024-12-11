@@ -1,0 +1,52 @@
+.main_section {
+  height: calc(100svh - 112px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.thank_you-text {
+  color: var(--main-color);
+  font-family: 'Gotham-bold';
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  max-width: 640px;
+  padding: 0 20px;
+  text-align: center;
+}
+.thankyou_button {
+  display: block;
+  width: 300px;
+  padding: 16px;
+  margin: 0 auto;
+  margin-top: 22px;
+}
+.content_wrap_thankyou {
+  margin-bottom: 100px;
+}
+.hightlight_text_th {
+  color: var(--sec-main-color);
+  margin-bottom: 20px;
+}
+@media (max-width: 1104px) {
+  .thankyou_logo {
+    display: block;
+  }
+  .thankyou_logo_wrapper {
+    display: block;
+  }
+}
+@media (max-width: 680px) {
+  .thankyou_logo {
+    width: 127px;
+    height: 33px;
+  }
+  .main_section {
+    height: calc(100svh - 85px);
+  }
+  .thank_you-text {
+    font-size: 30px;
+  }
+}

@@ -81,7 +81,9 @@
   align-items: center;
   gap: 27px;
 }
-
+.snd-wrap-com {
+  padding-right: 24px;
+}
 .community_item_texts {
   display: flex;
   flex-direction: column;
@@ -145,6 +147,7 @@
   }
   .community_item_wrapper {
     width: 90%;
+    justify-content: center;
   }
 }
 @media (max-width: 600px) {
@@ -173,7 +176,7 @@
   }
   .community_item_texts_title {
     font-size: 18px;
-    max-width: 185px;
+    max-width: 167px;
   }
   .community_mob_text {
     width: 100%;
@@ -189,5 +192,6 @@
   .community_subtitle {
     font-size: 18px;
     text-align: center;
+    margin: 0 auto;
   }
 }

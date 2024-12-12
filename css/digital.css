@@ -30,16 +30,16 @@
 }
 .section_title {
   color: var(--main-color);
-  font-family: 'Gotham-bold';
+  font-family: 'Gotham-normal';
   font-size: 48px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 120%;
   max-width: 640px;
   margin-bottom: 22px;
 }
 .digital_subtitle {
-  max-width: 236px;
+  max-width: 165px;
   margin-bottom: 25px;
 }
 .digital_text {
@@ -101,7 +101,7 @@
   .digital_image_mobile {
     display: block;
     width: 300px;
-    height: 185.625px;
+    height: 156.625px;
     margin: 0 auto;
     margin-bottom: 32px;
   }

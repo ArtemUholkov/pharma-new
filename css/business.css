@@ -90,6 +90,9 @@
   font-style: normal;
   font-weight: 600;
   line-height: 120%;
+  text-align: left;
+  align-self: flex-start;
+  white-space: nowrap;
 }
 .business_item_wrapper {
   display: flex;
@@ -97,6 +100,8 @@
   align-items: center;
   justify-content: center;
   gap: 12px;
+  max-width: 800px;
+  margin: 0 auto;
 }
 @media (max-width: 1700px) {
   .business_block {
@@ -140,8 +145,11 @@
   .b_items {
     padding: 0px 32px;
   }
+  .business_item_text {
+    align-self: center;
+  }
   .business_item_number {
-    font-size: 90px;
+    font-size: 64px;
   }
   .business_item_plus {
     font-size: 50px;

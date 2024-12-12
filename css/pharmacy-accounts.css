@@ -25,6 +25,10 @@ body {
   line-height: 140%;
   max-width: 580px;
 }
+.ph-picture-wrapper {
+  padding-right: 55px;
+  padding-left: 55px;
+}
 .ph_h1 {
   font-family: 'Gotham-normal';
   font-weight: 600;
@@ -36,7 +40,7 @@ body {
 }
 .ph_text_text {
   line-height: 140%;
-  max-width: 572px;
+  max-width: 612px;
 }
 .ph_wrap_buttons {
   display: flex;
@@ -44,7 +48,7 @@ body {
 }
 .ph_main_button_accent {
   width: auto;
-  padding: 12px 32px;
+  padding: 12px 52px;
 }
 .ph_main_button {
   color: var(--main-color);
@@ -163,7 +167,7 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 160%;
-  max-width: 500px;
+  max-width: 446px;
   text-align: center;
 }
 .catalog_items {

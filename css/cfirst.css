@@ -62,9 +62,9 @@
   z-index: 10;
   display: block;
   background: transparent;
-  width: 356px;
+  width: 359px;
   height: 418px;
-  padding: 48px 38px;
+  padding: 30px 20px;
   border-radius: 30px;
   border: 1px solid #f3f3f3;
 
@@ -171,13 +171,15 @@
   justify-content: center;
 }
 .cfirst_item_content_image {
-  margin-bottom: 32px;
+  margin-bottom: 20px;
 }
 .cfirst_item_content_title {
   color: var(--main-color);
   font-family: 'Gotham-normal';
   font-size: 28px;
   font-style: normal;
+  text-align: center;
+  max-width: 300px;
   font-weight: 600;
   line-height: 120%;
   margin-bottom: 8px;
@@ -190,7 +192,7 @@
   font-weight: 400;
   line-height: 160%;
   margin: 0 auto;
-  max-width: 241px;
+  max-width: 319px;
 }
 @media (max-width: 1200px) {
   .cfirst_items_wrapper {
@@ -218,7 +220,7 @@
   }
   .cfirst_item {
     padding: 22px 16px;
-    width: 273px;
+    width: 320px;
     height: auto;
   }
   .cfirst_item_content_title {
@@ -226,7 +228,8 @@
     text-align: center;
   }
   .cfirst_item_content_text {
-    font-size: 16px;
-    text-align: center;
+    font-size: 18px;
+    text-align: left;
+    max-width: 284px;
   }
 }

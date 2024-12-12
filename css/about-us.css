@@ -76,9 +76,14 @@
   font-style: normal;
   font-weight: 600;
   line-height: 120%;
-  max-width: 822px;
+  max-width: 922px;
 }
-
+.as-sol-text {
+  max-width: 480px;
+}
+.as-sol-texttt {
+  top: 85px;
+}
 .as_potential_text {
   color: var(--main-color);
   text-align: center;
@@ -87,7 +92,7 @@
   font-style: normal;
   font-weight: 500;
   line-height: 160%;
-  max-width: 817px;
+  max-width: 922px;
 }
 .as_solutions_wrapper {
   background: url('../img/about-us/as-bg.svg') no-repeat;
@@ -105,7 +110,7 @@
   margin-top: 0px;
 }
 .solutions_right_picture {
-  margin-right: 100px;
+  margin-right: 0;
 }
 .solutions_wrap_2_togather {
 }
@@ -191,6 +196,10 @@
   width: 508px;
   height: 600px;
 }
+.as_picture-wrapper {
+  padding-top: 108px;
+  padding-bottom: 108px;
+}
 .as_dig_image {
   width: 468px;
   height: 507px;
@@ -241,6 +250,10 @@
     height: 273px;
     margin: 0 auto;
     position: initial;
+  }
+  .as_picture-wrapper {
+    padding-top: 32px;
+    padding-bottom: 32px;
   }
   .as_dig_wrapper {
     gap: 0;

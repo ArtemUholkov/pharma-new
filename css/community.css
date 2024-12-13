@@ -131,6 +131,9 @@
   }
 }
 @media (max-width: 950px) {
+  .community_title {
+    text-align: center;
+  }
   .community_title_item_wrapper {
     flex-direction: column;
     gap: 52px;
@@ -144,6 +147,7 @@
   }
   .community_titles_wrapper {
     width: 292px;
+    align-items: center;
   }
   .community_item_wrapper {
     width: 90%;
